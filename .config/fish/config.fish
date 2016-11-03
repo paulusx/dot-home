@@ -1,11 +1,10 @@
 
 set fish_greeting ""
-set EDITOR "emacsclient -a emacs"
+set EDITOR emacsclient -a emacs
 set PATH ~/.cargo/bin ~/.go/bin $PATH
 set -x GOPATH ~/.go
-set -x MESHBIRD_KEY 'ebf6e39f6584b1bd45f1984de1364d590a070000ffff0000'
 
-abbr ec "emacsclient"
+abbr ec emacsclient -a emacs
 
 abbr gst git status
 abbr gbr git branch
